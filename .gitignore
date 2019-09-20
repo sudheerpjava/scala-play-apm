@@ -1,0 +1,11 @@
+.DS_Store
+.g8/
+.idea/
+LICENSE
+NOTICE
+apm-agent.jar
+sbt
+sbt-dist/
+sbt.bat
+scripts/
+target/
