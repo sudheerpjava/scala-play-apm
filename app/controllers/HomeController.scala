@@ -13,7 +13,7 @@ import play.api.mvc._
 @Singleton
 class HomeController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
-  import co.elastic.apm.api.ElasticApm
+  /*import co.elastic.apm.api.ElasticApm
   val transaction = ElasticApm.startTransaction
   try {
     transaction.setName("HomeController#explore")
@@ -22,7 +22,7 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
     case e: Exception =>
       transaction.captureException(e)
       throw e
-  }
+  }*/
   /**
    * Create an Action to render an HTML page.
    *
